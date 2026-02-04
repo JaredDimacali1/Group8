@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | UWT Cloud Security Project</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+<header class="sub-header">
+  <h1>About the Project</h1>
+</header>
+
+<nav>
+  <a href="Index.html">Home</a>
+  <a href="About.html" class="active">About</a>
+  <a href="SecurityFeatures.html">Security Features</a>
+  <a href="Team.html">Team</a>
+</nav>
+
+<main>
+  <section class="content">
+    <h2>Our Mission</h2>
+    <p>
+      The UWT Cloud Security Project aims to demonstrate a practical implementation of secure cloud
+      infrastructure for enterprise and educational use. Our simulated environment represents a modern
+      IT organization managing data across hybrid cloud systems — AWS and Azure.
+    </p>
+    <p>
+      By combining virtualization, network segmentation, and authentication protocols, the project provides
+      students with hands-on experience designing, deploying, and securing multi-tier systems.
+    </p>
+
+    <h2>Infrastructure Overview</h2>
+    <p>
+      We utilize AWS EC2 for compute resources and S3 for storage and static hosting. A load balancer
+      (HAProxy) distributes traffic evenly between redundant web servers. Snort monitors network activity
+      to detect potential threats, while IDS/IPS systems actively prevent intrusions.
+    </p>
+    <p>
+      Shibboleth SSO integrates secure authentication, ensuring users are verified before accessing sensitive data.
+    </p>
+  </section>
+  <section>
+    <h2>Project Workflow</h2>
+    <p>
+      The development process followed a real-world enterprise workflow, starting with
+      infrastructure planning and ending with security validation and monitoring.
+    </p>
+
+    <ol class="workflow">
+      <li>
+        <strong>Infrastructure Design:</strong> Planned AWS and Azure hybrid architecture,
+        defining networking, security zones, and access controls.
+      </li>
+      <li>
+        <strong>Server Deployment:</strong> Configured EC2 instances, S3 buckets, and
+        reverse proxy routing.
+      </li>
+      <li>
+        <strong>Security Implementation:</strong> Deployed Snort, firewall rules, IDS/IPS,
+        and authentication services.
+      </li>
+      <li>
+        <strong>Monitoring & Logging:</strong> Enabled traffic logging, alert generation,
+        and automated ticket creation.
+      </li>
+      <li>
+        <strong>Testing & Validation:</strong> Simulated user access, attacks, and failure
+        scenarios.
+      </li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 UWT Cloud Security Project</p>
+</footer>
+</body>
+</html>

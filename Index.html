@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UWT Cloud Security Project</title>
+    <link rel="stylesheet" href="Styles.css" />
+</head>
+<body>
+<header class="hero">
+    <div class="hero-content">
+        <h1>UWT Cloud Security Project</h1>
+        <p>Simulating a Secure University Cloud Infrastructure</p>
+        <a href="About.html" class="btn">Learn More</a>
+    </div>
+</header>
+
+<nav>
+    <a href="Index.html" class="active">Home</a>
+    <a href="About.html">About</a>
+    <a href="SecurityFeatures.html">Security Features</a>
+    <a href="Team.html">Team</a>
+</nav>
+
+<main>
+    <section class="intro">
+        <h2>Welcome</h2>
+        <p>
+            The UWT Cloud Security Project is a senior capstone project at the University of Washington Tacoma.
+            Our goal is to build a simulated secure university infrastructure that demonstrates modern
+            cloud security principles, virtualization, and authentication systems.
+        </p>
+        <p>
+            This project showcases cloud deployment on AWS and Azure, integrating technologies like
+            <strong>Snort</strong>, <strong>HAProxy</strong>, <strong>Shibboleth SSO</strong>, and
+            <strong>automated ticketing systems</strong> to simulate a professional enterprise environment.
+        </p>
+    </section>
+
+    <section class="highlight">
+        <h2>Project Goals</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Virtualization</h3>
+                <p>Deploy a fully virtualized environment running on AWS EC2 and S3 for scalable and secure web hosting.</p>
+            </div>
+            <div class="card">
+                <h3>Security Simulation</h3>
+                <p>Implement IDS/IPS, Snort, and Shibboleth to simulate real-world network defense and identity management.</p>
+            </div>
+            <div class="card">
+                <h3>Automation</h3>
+                <p>Develop an automated ticketing system to log incidents, monitor events, and streamline incident response.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>System Architecture Overview</h2>
+        <p>
+            Our project simulates a secure university cloud environment similar to production
+            systems used by higher education institutions. The architecture is designed with
+            security, scalability, and redundancy as core principles.
+        </p>
+
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>User Access</h3>
+                <p>
+                    Users authenticate through a Single Sign-On (SSO) system using Shibboleth,
+                    simulating university identity management.
+                </p>
+            </div>
+
+            <div class="feature-item">
+                <h3>Load Balancing</h3>
+                <p>
+                    HAProxy distributes traffic across EC2 instances to ensure high availability
+                    and fault tolerance.
+                </p>
+            </div>
+
+            <div class="feature-item">
+                <h3>Security Monitoring</h3>
+                <p>
+                    Snort and IDS/IPS systems monitor network traffic in real time to detect
+                    malicious activity.
+                </p>
+            </div>
+
+            <div class="feature-item">
+                <h3>Cloud Hosting</h3>
+                <p>
+                    AWS EC2 hosts the web server while Amazon S3 provides static content delivery
+                    and backup storage.
+                </p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 University of Washington Tacoma | UWT Cloud Security Project</p>
+</footer>
+</body>
+</html>
