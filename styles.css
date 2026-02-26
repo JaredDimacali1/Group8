@@ -12,6 +12,9 @@
 }
 
 body {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     color: var(--text-dark);
@@ -250,6 +253,26 @@ body.dark .btn {
     color: #121212;
 }
 
+section {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.card {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.feature-item {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.team-card {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav {
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
 footer {
     background-color: var(--uwt-purple);
     color: var(--text-light);
@@ -257,6 +280,7 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
     margin-top: 2rem;
-
+    transition: background 0.3s ease, color 0.3s ease;
 }
+
 
