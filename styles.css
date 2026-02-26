@@ -195,6 +195,60 @@ section h2 {
     margin-bottom: 2rem;
     letter-spacing: 0.5px;
 }
+/* ===== DARK MODE IMPROVEMENTS ===== */
+
+body.dark {
+    background-color: #121212;
+    color: #eaeaea;
+}
+
+/* Sections */
+body.dark section {
+    background: #1e1e1e;
+    box-shadow: none;
+}
+
+/* Cards */
+body.dark .card,
+body.dark .feature-item,
+body.dark .team-card {
+    background: #242424;
+    color: #eaeaea;
+    border-color: var(--uwt-gold);
+}
+
+/* Headings */
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: #ffffff;
+}
+
+/* Gold underline on section titles */
+body.dark section h2 {
+    border-bottom: 2px solid var(--uwt-gold);
+}
+
+/* Navigation */
+body.dark nav {
+    background-color: #1a1a1a;
+}
+
+body.dark nav a {
+    color: var(--uwt-gold);
+}
+
+/* Footer */
+body.dark footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+}
+
+/* Buttons */
+body.dark .btn {
+    background-color: var(--uwt-gold);
+    color: #121212;
+}
 
 footer {
     background-color: var(--uwt-purple);
@@ -205,3 +259,4 @@ footer {
     margin-top: 2rem;
 
 }
+
