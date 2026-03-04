@@ -43,6 +43,29 @@ body.dark .theme-toggle {
     color: var(--uwt-gold);
 }
 
+/* --- SUB HEADER (About / Security pages) --- */
+.sub-header {
+  background: var(--uwt-purple);
+  color: var(--text-light);
+  text-align: center;
+  padding: 2.5rem 1rem;
+}
+
+.sub-header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.sub-header::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 4px;
+  background: var(--uwt-gold);
+  margin: 0.9rem auto 0;
+  border-radius: 999px;
+}
+
 /* --- HERO HEADER --- */
 .hero {
     background: linear-gradient(rgba(75, 46, 131, 0.9), rgba(75, 46, 131, 0.9));
@@ -261,11 +284,11 @@ body.dark section h2 {
 }
 
 /* Navigation */
-body.dark nav {
+body.dark .navbar {
     background-color: #1a1a1a;
 }
 
-body.dark nav a {
+body.dark .nav-links a {
     color: var(--uwt-gold);
 }
 
@@ -310,6 +333,7 @@ footer {
     margin-top: 2rem;
     transition: background 0.3s ease, color 0.3s ease;
 }
+
 
 
 
