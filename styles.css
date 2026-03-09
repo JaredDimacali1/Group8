@@ -20,6 +20,10 @@ body {
     color: var(--text-dark);
     background-color: var(--uwt-gray);
     line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 body.dark {
     background-color: #121212;
@@ -165,6 +169,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    flex: 1;
 }
 
 .card {
@@ -333,6 +338,7 @@ footer {
     margin-top: 2rem;
     transition: background 0.3s ease, color 0.3s ease;
 }
+
 
 
 
